@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/icons">
+        <file>bininjector.png</file>
+    </qresource>
+    <qresource prefix="/fonts">
+        <file>NotoSansUI-Regular.ttf</file>
+    </qresource>
+    <qresource prefix="/translations">
+        <file>bininjector_en_EN.qm</file>
+    </qresource>
+</RCC>

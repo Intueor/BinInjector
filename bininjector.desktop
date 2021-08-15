@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=BinInjector
+Version=1.0
+Exec=bininjector_adm
+Comment=A simple tool for inserting files into a *.bin image.
+Icon=/usr/share/icons/hicolor/128x128/apps/bininjector.png
+Type=Application
+Terminal=false
+StartupNotify=true
+Encoding=UTF-8
+Categories=Utility;FileTransfer;

@@ -1,0 +1,10 @@
+#!/bin/bash
+# $1 = Директория бинарного файла.
+# $2 = Директория исходников.
+cp -f $2/bininjector /usr/bin
+cp -f $2/bininjector_cleaner /usr/bin
+cp -f $2/bininjector.desktop /usr/share/applications
+cp -f $2/bininjector.png /usr/share/icons/hicolor/128x128/apps
+cp -f $2/site.procyonproject.bininjector.policy /usr/share/polkit-1/actions
+cp -R -f $2/bininjector_rl /usr/lib
+cp -f $1/bininjector /usr/lib/bininjector_rl

@@ -1,0 +1,2 @@
+#!/bin/bash
+exec pkexec env XDG_RUNTIME_DIR=/tmp/runtime-root DISPLAY=$DISPLAY XAUTHORITY=$XAUTHORITY QT_LOGGING_RULES="*.debug=false;qt.qpa.*=false" LD_LIBRARY_PATH=/usr/lib/bininjector_rl /usr/lib/bininjector_rl/bininjector "$@"

@@ -1,0 +1,10 @@
+#!/bin/bash
+if [ -f /usr/bin/bininjector_cleaner ]
+then /usr/bin/bininjector_cleaner
+fi
+rm -f /usr/bin/bininjector
+rm -f /usr/bin/bininjector_cleaner
+rm -f /usr/share/applications/bininjector.desktop
+rm -f /usr/share/icons/hicolor/128x128/apps/bininjector.png
+rm -f /usr/share/polkit-1/actions/site.procyonproject.bininjector.policy
+rm -R -f /usr/lib/bininjector_rl
