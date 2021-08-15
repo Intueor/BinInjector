@@ -80,6 +80,6 @@ const char m_chLogInternalError[] = "INTERNAL ERROR.";
 const char m_chLogSettingsError[] = "Can`t save settings.";
 const char m_chLogSettingsSaved[] = "Settings saved.";
 const char m_chExtLogError[] = "Error: ";
-const char m_chWrongScript[] = "Wrong bininjector_adm.sh content.";
+const char m_chWrongScript[] = "Wrong [/usr/bin/bininjector] script content.";
 
 #endif // SJA2USDEFS_H

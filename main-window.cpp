@@ -353,7 +353,7 @@ void MainWindow::SetButtonStatesByPathFlags()
 	}
 }
 
-// Вызов Shell с командной строкой.m_chSudo
+// Вызов Shell с командной строкой.
 MainWindow::ShellRet MainWindow::CallShell(QString& a_strCommand, bool bLogging, bool bOutEnabled)
 {
 	QString strCommand;
