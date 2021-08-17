@@ -44,6 +44,12 @@ DISTFILES += \
 	bininjector \
 	bininjector.desktop \
 	bininjector_cleaner \
+	bininjector_rl/libQt5Core.so.5 \
+	bininjector_rl/libQt5DBus.so.5 \
+	bininjector_rl/libQt5Gui.so.5 \
+	bininjector_rl/libQt5OpenGL.so.5 \
+	bininjector_rl/libQt5Widgets.so.5 \
+	bininjector_rl/libQt5XcbQpa.so.5 \
 	bininjector_rl/libQt6Core.so.6 \
 	bininjector_rl/libQt6DBus.so.6 \
 	bininjector_rl/libQt6Gui.so.6 \
@@ -51,8 +57,11 @@ DISTFILES += \
 	bininjector_rl/libQt6Widgets.so.6 \
 	bininjector_rl/libQt6XcbQpa.so.6 \
 	bininjector_rl/libicudata.so.56 \
+	bininjector_rl/libicudata.so.63 \
 	bininjector_rl/libicui18n.so.56 \
+	bininjector_rl/libicui18n.so.63 \
 	bininjector_rl/libicuuc.so.56 \
+	bininjector_rl/libicuuc.so.63 \
 	bininjector_rl/platforms/libqxcb.so \
 	cleaning \
 	deployment \
