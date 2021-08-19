@@ -45,10 +45,12 @@ int main(int argc, char* argv[])
 	{
 		QString strScript;
 		//
+		strHelper = "sudo chmod 777 " + QString(STARTING_SCRIPT_PATH);
+		MainWindow::CallShell(strHelper, DONT_USE_LOG, DONT_SEND_OUTPUT);
+		MSleep(500);
 		oQFile.open(QIODevice::ReadOnly | QIODevice::Text);
 		strScript = strScript.fromStdString(oQFile.readAll().toStdString());
 		oQFile.close();
-		oQFile.setPermissions(CARTE_BLANCHE);
 		if(strScript.contains("pkexec")) bSudo = false; else bSudo = true;
 	}
 	// При наличии аргументов.
